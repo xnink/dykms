@@ -1,12 +1,12 @@
 $i = 0;
-$("#start").click(function () {
+$("#start")。click(function () {
   $i++;
-  if ($i >= 6) {
+  if ($i >= 10) {
     $("#start").hide();
     $("#stop").show();
   }
 });
-$("#stop").click(function () {
+$("#stop")。click(function () {
   alert("这么挑剔？今天别看了！");
   $(this).hide();
   // $("#banner").show();
